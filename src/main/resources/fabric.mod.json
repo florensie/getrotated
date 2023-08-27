@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "getrotated",
+  "version": "${version}",
+  "name": "Get Rotated",
+  "description": "Removes the game from the game.",
+  "authors": [
+    "Florens Pauwels"
+  ],
+  "contact": {
+    "website": "https://florens.be",
+    "repo": "https://github.com/florensie/getrotated"
+  },
+  "license": "MIT",
+  "icon": "assets/getrotated/icon.png",
+  "environment": "client",
+  "mixins": [
+    "getrotated.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}
